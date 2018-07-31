@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Eczar|Open+Sans" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+	<link href="Title%20of%20the%20document_pliki/font-awesome.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>grid rwd</title>
+<style>
+
+  .main-head {
+    grid-area: header;
+  }
+  .content {
+    grid-area: content;
+  }
+  .main-nav {
+    grid-area: nav;
+  }
+  .side {
+    grid-area: sidebar;
+  }
+  .ad {
+    grid-area: ad;
+  }
+  .main-footer {
+    grid-area: footer;
+  }
+
+  header, nav, article, aside, footer, div.ad { border: 1px solid black; }
+
+    nav ul li {
+     display: block;
+    }
+    ul{text align-items: center;
+    font size: 18px;
+	font-family: Open Sans;
+padding: 5px;}
+li {list-style-type: none;
+text-align: center;}
+h1 {font-size: 35px;
+color: blue;
+font-family: 'Eczar';
+padding: 20px;}
+p {font size: 18px;
+	font-family: Open Sans;
+padding: 5px;}
+	body {background-color: #ebebe0;
+		padding: 20px;}
+article {background-color: white;}
+* {
+box-sizing: border-box;}
+.header{border: 1px solid red;
+padding: 15px;}
+.row::after{
+content: "";
+clear: both;
+display: table;}
+[class*="col-"] {
+float: left;
+padding: 15px;
+border: 1px solid red;}
+@media only screen and (max-width: 600px) {
+/* dla urządzeń mobilnych: */
+[class*="col-"] {
+width: 100%;
+}}
+/* ukrywanie elementu dla zadanego zakresu szerokości */
+@media only screen and (max-width: 600px) { div.example { display: none; } }
+@media only screen and (max-width: 600px) { body { background-color: lightblue; } }
+@media only screen and (min-width: 600px) { .col-s-1 {width: 8.33%;} .col-s-2 {width: 16.66%;} .col-s-3 {width: 25%;} .col-s-4 {width: 33.33%;} .col-s-5 {width: 41.66%;} .col-s-6 {width: 50%;} .col-s-7 {width: 58.33%;} .col-s-8 {width: 66.66%;} .col-s-9 {width: 75%;} .col-s-10 {width: 83.33%;} .col-s-11 {width: 91.66%;} .col-s-12 {width: 100%;} }
+@media only screen and (min-width: 600px) { body { background-color: lightgreen; } }
+/* dla desktopów: */
+@media only screen and (min-width: 768px) {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}}
+@media only screen and (min-width: 768px) { body { background-color: #ebebe0; } }
+
+/* gdy szerokość okna większa niż wysokość */
+@media only screen and (orientation: landscape) {body {background-color: #ffe6ff;} }
+</style> 
+</head>
+<body>
+	<div class="wrapper">
+		<div class="col-12 col-s-12">
+<header class="main-head"><h1><i class="fa fa-heart" aria-hidden="true"></i>
+The header</h1></header></div>
+<div class="col-3 col-s-6"><div class="example">
+        <nav class="main-nav">
+            <ul>
+<li><i class="fa fa-first-order"></i> pozycja 1</li>
+<li><i class="fa fa-rebel"></i> pozycja 2</li>
+<li><i class="fa fa-empire"></i> pozycja 3</li>
+</ul></nav></div></div>
+<div class="col-6 col-s-6"><article class="content">
+            <h1>Main article area</h1>
+            <p>In this layout, we display the areas in source order for 
+any screen less that 500 pixels wide. We go to a two column layout, and 
+then to a three column layout by redefining the grid, and the placement 
+of items on the grid.</p>
+        </article></div>
+        <div class="col-3 col-s-6"><p>Sidebar
+        	<img src="ewok.jpg" width="150px" height="150px"></p></div>
+        <div class="col-3 col-s-6"><p>Advertising</p>
+        	<p>Bla bla kup</p></div>
+        <div class="col-12 col-s-12"><footer class="main-footer"><p>The footer</p></footer></div>
+</div>
+</body>
+</html>
