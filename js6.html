@@ -1,0 +1,28 @@
+!doctype html>
+<html>
+<head>
+<meta charset="UTF
+-
+8">
+<title>Formularz -test</title>
+</head>
+<script>
+function pobierz() {
+if (document.getElementById("opcja1").checked == true) { alert 
+(document.getElementById("opcja1").value)
+; }
+if (document.getElementById("opcja2").checked == true) { alert 
+(document.getElementById("opcja2").value); }    
+}
+</script>
+<body>
+<form method="post">
+<input id="opcja1" type="radio" name="wybor" value="opcja1"> opcja 1&nbsp;
+<input id="opcja2" type="radio" name="wybor" value="opcja2"> opcja 2<br>
+WorkOn30+
+<input id="tekst" type="text" name="tekst"><br><br>
+<input type="button" value="klik" onClick="pobierz();">
+</form>
+</body>
+</ht
+ml>
