@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Pozycjonowanie 1</title>
+<link rel="stylesheet" type=”text/css” href="style.css"> 
+</head>
+<body>
+<div id="top">
+<div id="NAGLOWEK">Naglowek szablonu</div>
+<div id="MENU">Menu nawigacyjne
+<ul class="a">
+		<li class="a"><a href="x"><i class="fa fa-file"> Strona główna</i></a></li>
+		<li class="a"><a href="x"><i class="fa fa-heart"> O nas</i></a></li>
+		<li class="a"><a href="x"><i class="fa fa-bars"> Nasze usługi</i></a></li>
+		<li class="a"><a href="x">Blog</a></li>
+		<li class="a"><a href="x">Kontakt</a></li>
+	</ul></div>
+<div id="TRESC">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+<div id="STOPKA">
+	<h4>Stopka serwisu</h4>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+</div>
+</body>
+</html>

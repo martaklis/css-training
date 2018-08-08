@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Eczar|Open+Sans" rel="stylesheet">  
+	<title>grid3</title>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.container {
+display: grid;
+grid-template-areas:
+'header header header header header header'
+'menu menu main main main right'
+'...... ....... footer footer footer footer';
+grid-gap: 10px;
+padding: 10px;
+margin: 0px auto;
+width: 800px;
+}
+.container > div {
+border: 1px solid #000000;
+border-radius: 10px;
+text-align: center;
+padding: 20px 0;
+font: 20px Arial;
+}
+</style> 
+</head>
+<body>
+	<div class="container">
+<div class="item1">Header</div>
+<div class="item2">Menu</div>
+<div class="item3">Main</div>
+<div class="item4">Right</div>
+<div class="item5">Footer</div>
+</div>
+</body>

@@ -1,0 +1,50 @@
+<style type="text/css">
+* {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;}
+body { font-family: 'Open Sans', sans-serif}
+body {background-color: lightblue}
+body {padding: 40px}
+h1   { font-family: 'Raleway', sans-serif}
+h1	 { font-size: 44pt}
+h1   {padding: 10px;
+text-align: center;}
+h1   {color: white}
+h2   { font-family: 'Raleway', sans-serif;
+font-size: 32px}
+h3   { font-family: 'Raleway', sans-serif}
+h3   {color: white;
+font-size: 26px}
+code { font-family: 'Roboto Mono', monospace;}
+b    {color: #f0f0f0;
+font-size: 18px}
+p.cytat { font-family: 'Roboto Mono', monospace;
+		border-left: solid;: 1px;
+		font-style: italic;
+		color: white;
+		margin: 20px;
+		text-align: right;
+		text-shadow: inherit;}
+p {color: #202020}
+a:link {color: white}
+a:visited {color: black;}
+a:hover {color: red;}
+a:active {color: green;}
+ul {list-style-type: circle;}
+ul.a {display: block;
+	background: #f0f0f0;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+font-family: 'Raleway', sans-serif;
+font-size: 20px;}
+    li.a {display: block;
+    	background: #000;
+    margin: 10px;
+    padding: 20px;
+    	float: left;
+    	text-align: justify-all;}
+</style>

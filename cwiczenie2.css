@@ -1,0 +1,82 @@
+html, body {background-color: #ffffff;
+    color: #000000;
+    margin: 0 auto;
+    padding:20px;
+    font-size: 18px;
+    text-align: left; 
+color: #6f6f70;}
+p {padding: 10px;}
+#top {
+width: 100%;
+margin: 0 auto;}
+#NAGLOWEK {
+background-color: #428cf4;
+color: white;
+padding: 10px;}
+#MENU {
+width: 100%;
+margin: 0 auto;
+float: left;
+overflow: hidden;
+background-color: #ffffff;}
+WebDeveloper (2018)
+#TRESC {
+    width: 100%;
+    margin: 0 auto; 
+    float: left;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin: 0 auto;
+padding: 10px;}
+#STOPKA {
+margin: 0 auto;
+width: 100%;
+background-color: #888888;
+color: white;
+text-align: center;}
+a:link {color: white}
+a:visited {color: black;}
+a:hover {color: red;}
+a:active {color: green;}
+ul {list-style-type: circle;}
+ul.a {display: block;
+    background: #f0f0f0;
+    list-style-type: none;
+    margin: 0 auto;;
+    padding: 10px;
+    overflow: hidden;
+font-family: 'Raleway', sans-serif;
+font-size: 20px;}
+    li.a {display: block;
+        background: #000;
+    margin: 10px;
+    padding: 20px;
+        float: left;
+        text-align: justify-all;}
+#div1 {
+    background: url(indeks.jpg); left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#form {
+    display: block;
+    overflow: hidden;
+padding: 40px;
+margin: 20px;}
+input[type=text] {
+    padding: 20px;
+    margin: 20px;
+   display: block;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+input[type=submit] {
+    display: block;
+    background-color: #428cf4;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    object-position: center;
+    font-size: 18px;}
