@@ -7,12 +7,12 @@
 <script>
 function display(){
 if (document.getElementById("opcja1").checked == true) {
-	document.getElementById("tekst1").style.display="none"; 
-	document.getElementById("tekst2").style.display="block";
+	document.getElementById("tekst1").style.disable="false"; 
+	document.getElementById("tekst2").style.disable="true";
 }
 if (document.getElementById("opcja2").checked == true) {
-	document.getElementById("tekst2").style.display="none"; 
-	document.getElementById("tekst1").style.display="block";
+	document.getElementById("tekst2").style.disable="true"; 
+	document.getElementById("tekst1").style.disable="false";
 }
 
 }</script>
@@ -21,7 +21,7 @@ if (document.getElementById("opcja2").checked == true) {
 <input id="opcja1" type="radio" name="wybor" value="opcja1"> opcja 1&nbsp;
 <input id="opcja2" type="radio" name="wybor" value="opcja2"> opcja 2<br>
 WorkOn30+
-<input id="tekst1" type="text" name="tekst" >&nbsp;<input id="tekst2" type="text" name="tekst"><br><br>
+<input id="tekst1" type="text" name="tekst" placeholder="tekst 1" >&nbsp;<input id="tekst2" type="text" name="tekst" placeholder="tekst 2"><br><br>
 <input type="button" value="klik" onClick="display();">
 </form>
 </body>
