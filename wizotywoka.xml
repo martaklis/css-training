@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="wizytowka.css" type="text/css"?>
+<users>
+<body>
+<user>
+	<napis>Wizytówka</napis>
+	<imie>Marta</imie>
+	<nazwisko>Kliś</nazwisko>
+	<adres>ul. Nowa 16</adres>
+	<kod>85-794</kod>
+	<miasto>Bydgoszcz</miasto>
+</user>
+</body>
+</users>
